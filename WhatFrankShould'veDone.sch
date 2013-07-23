@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6935,17 +6935,17 @@ grid 3.5 mm, diameter 10 mm</description>
 <part name="U1" library="RASEagleLib" deviceset="LM2576" device=".SMD" value="LM2576.SMD"/>
 <part name="IC1" library="infineon" deviceset="TLE5205-2" device="G"/>
 <part name="M1" library="RASEagleLib" deviceset="PHOENIXSCREWTERMINAL_2" device="" value="Motor3"/>
-<part name="GPIO0" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO1" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO2" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO3" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO4" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO5" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO6" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO7" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO8" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO9" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
-<part name="GPIO10" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PF2" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PC4" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PF0" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PC5" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PB7" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PB6" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PB5" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PB4" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PA7" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PA6" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
+<part name="PF1" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
 <part name="ADC0" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
 <part name="ADC1" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
 <part name="ADC2" library="RASEagleLib" deviceset="3PINHEADER" device=""/>
@@ -7024,17 +7024,17 @@ grid 3.5 mm, diameter 10 mm</description>
 <instance part="U1" gate="G$1" x="137.16" y="-22.86"/>
 <instance part="IC1" gate="G$1" x="-48.26" y="85.09"/>
 <instance part="M1" gate="G$1" x="-17.78" y="85.09"/>
-<instance part="GPIO0" gate="G$1" x="55.88" y="99.06"/>
-<instance part="GPIO1" gate="G$1" x="55.88" y="93.98"/>
-<instance part="GPIO2" gate="G$1" x="55.88" y="88.9"/>
-<instance part="GPIO3" gate="G$1" x="55.88" y="83.82"/>
-<instance part="GPIO4" gate="G$1" x="55.88" y="78.74"/>
-<instance part="GPIO5" gate="G$1" x="55.88" y="73.66"/>
-<instance part="GPIO6" gate="G$1" x="55.88" y="68.58"/>
-<instance part="GPIO7" gate="G$1" x="55.88" y="63.5"/>
-<instance part="GPIO8" gate="G$1" x="55.88" y="58.42"/>
-<instance part="GPIO9" gate="G$1" x="55.88" y="53.34"/>
-<instance part="GPIO10" gate="G$1" x="55.88" y="48.26"/>
+<instance part="PF2" gate="G$1" x="55.88" y="99.06"/>
+<instance part="PC4" gate="G$1" x="55.88" y="93.98"/>
+<instance part="PF0" gate="G$1" x="55.88" y="88.9"/>
+<instance part="PC5" gate="G$1" x="55.88" y="83.82"/>
+<instance part="PB7" gate="G$1" x="55.88" y="78.74"/>
+<instance part="PB6" gate="G$1" x="55.88" y="73.66"/>
+<instance part="PB5" gate="G$1" x="55.88" y="68.58"/>
+<instance part="PB4" gate="G$1" x="55.88" y="63.5"/>
+<instance part="PA7" gate="G$1" x="55.88" y="58.42"/>
+<instance part="PA6" gate="G$1" x="55.88" y="53.34"/>
+<instance part="PF1" gate="G$1" x="55.88" y="48.26"/>
 <instance part="ADC0" gate="G$1" x="198.12" y="101.6"/>
 <instance part="ADC1" gate="G$1" x="198.12" y="96.52"/>
 <instance part="ADC2" gate="G$1" x="198.12" y="91.44" smashed="yes">
@@ -7110,7 +7110,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="-GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -7236,7 +7236,7 @@ grid 3.5 mm, diameter 10 mm</description>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
-<pinref part="GPIO10" gate="G$1" pin="3"/>
+<pinref part="PF1" gate="G$1" pin="3"/>
 <wire x1="58.42" y1="99.06" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="93.98" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="88.9" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
@@ -7249,25 +7249,25 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="58.42" y1="53.34" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="48.26" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="GPIO9" gate="G$1" pin="3"/>
+<pinref part="PA6" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="GPIO8" gate="G$1" pin="3"/>
+<pinref part="PA7" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="GPIO7" gate="G$1" pin="3"/>
+<pinref part="PB4" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GPIO6" gate="G$1" pin="3"/>
+<pinref part="PB5" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="GPIO5" gate="G$1" pin="3"/>
+<pinref part="PB6" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GPIO4" gate="G$1" pin="3"/>
+<pinref part="PB7" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GPIO3" gate="G$1" pin="3"/>
+<pinref part="PC5" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="GPIO2" gate="G$1" pin="3"/>
+<pinref part="PF0" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="GPIO0" gate="G$1" pin="3"/>
+<pinref part="PF2" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="3"/>
+<pinref part="PC4" gate="G$1" pin="3"/>
 <wire x1="59.69" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7471,39 +7471,39 @@ grid 3.5 mm, diameter 10 mm</description>
 <wire x1="243.84" y1="8.89" x2="243.84" y2="21.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GPIO0" gate="G$1" pin="2"/>
+<pinref part="PF2" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="53.34" y1="99.06" x2="52.07" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="99.06" x2="52.07" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="2"/>
+<pinref part="PC4" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="93.98" x2="52.07" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="93.98" x2="52.07" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GPIO2" gate="G$1" pin="2"/>
+<pinref part="PF0" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="88.9" x2="52.07" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="88.9" x2="52.07" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="GPIO4" gate="G$1" pin="2"/>
+<pinref part="PB7" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="78.74" x2="52.07" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GPIO5" gate="G$1" pin="2"/>
+<pinref part="PB6" gate="G$1" pin="2"/>
 <wire x1="52.07" y1="78.74" x2="52.07" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="83.82" x2="52.07" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="73.66" x2="52.07" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="GPIO6" gate="G$1" pin="2"/>
+<pinref part="PB5" gate="G$1" pin="2"/>
 <wire x1="52.07" y1="73.66" x2="52.07" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="68.58" x2="52.07" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="GPIO7" gate="G$1" pin="2"/>
+<pinref part="PB4" gate="G$1" pin="2"/>
 <wire x1="52.07" y1="68.58" x2="52.07" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="63.5" x2="52.07" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="63.5" x2="52.07" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="GPIO8" gate="G$1" pin="2"/>
+<pinref part="PA7" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="58.42" x2="52.07" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="58.42" x2="52.07" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GPIO9" gate="G$1" pin="2"/>
+<pinref part="PA6" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="53.34" x2="52.07" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="53.34" x2="52.07" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="GPIO10" gate="G$1" pin="2"/>
+<pinref part="PF1" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="48.26" x2="52.07" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="48.26" x2="52.07" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="GPIO3" gate="G$1" pin="2"/>
+<pinref part="PC5" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="83.82" x2="52.07" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7562,7 +7562,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="35.56" y="53.34" size="1.778" layer="95"/>
-<pinref part="GPIO9" gate="G$1" pin="1"/>
+<pinref part="PA6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PA7" class="0">
@@ -7573,7 +7573,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="45.72" y1="58.42" x2="44.45" y2="58.42" width="0.1524" layer="91"/>
 <label x="35.56" y="58.42" size="1.778" layer="95"/>
-<pinref part="GPIO8" gate="G$1" pin="1"/>
+<pinref part="PA7" gate="G$1" pin="1"/>
 <wire x1="44.45" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -7586,7 +7586,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="45.72" y1="88.9" x2="44.45" y2="88.9" width="0.1524" layer="91"/>
 <label x="35.56" y="88.9" size="1.778" layer="95"/>
-<pinref part="GPIO2" gate="G$1" pin="1"/>
+<pinref part="PF0" gate="G$1" pin="1"/>
 <wire x1="44.45" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -7599,7 +7599,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 <label x="35.56" y="83.82" size="1.778" layer="95"/>
-<pinref part="GPIO3" gate="G$1" pin="1"/>
+<pinref part="PC5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PC6" class="0">
@@ -7725,7 +7725,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="35.56" y="63.5" size="1.778" layer="95"/>
-<pinref part="GPIO7" gate="G$1" pin="1"/>
+<pinref part="PB4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -7736,7 +7736,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="35.56" y="68.58" size="1.778" layer="95"/>
-<pinref part="GPIO6" gate="G$1" pin="1"/>
+<pinref part="PB5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PD0" class="0">
@@ -7813,7 +7813,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="35.56" y="93.98" size="1.778" layer="95"/>
-<pinref part="GPIO1" gate="G$1" pin="1"/>
+<pinref part="PC4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PF1" class="0">
@@ -7824,7 +7824,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="45.72" y1="48.26" x2="44.45" y2="48.26" width="0.1524" layer="91"/>
 <label x="35.56" y="48.26" size="1.778" layer="95"/>
-<pinref part="GPIO10" gate="G$1" pin="1"/>
+<pinref part="PF1" gate="G$1" pin="1"/>
 <wire x1="44.45" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -7837,7 +7837,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="35.56" y="99.06" size="1.778" layer="95"/>
-<pinref part="GPIO0" gate="G$1" pin="1"/>
+<pinref part="PF2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PF3" class="0">
@@ -7884,7 +7884,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="46.99" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="35.56" y="73.66" size="1.778" layer="95"/>
-<pinref part="GPIO5" gate="G$1" pin="1"/>
+<pinref part="PB6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB7" class="0">
@@ -7895,7 +7895,7 @@ grid 3.5 mm, diameter 10 mm</description>
 <segment>
 <wire x1="45.72" y1="78.74" x2="44.45" y2="78.74" width="0.1524" layer="91"/>
 <label x="35.56" y="78.74" size="1.778" layer="95"/>
-<pinref part="GPIO4" gate="G$1" pin="1"/>
+<pinref part="PB7" gate="G$1" pin="1"/>
 <wire x1="44.45" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 </segment>
