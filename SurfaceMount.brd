@@ -128,20 +128,20 @@
 <hole x="84.1375" y="1.5875" drill="3.2"/>
 <hole x="-1.5875" y="1.5875" drill="3.2"/>
 <hole x="-1.5875" y="63.5" drill="3.2"/>
-<text x="84.7725" y="5.715" size="1.016" layer="105" rot="R180">-+5V</text>
+<text x="84.7725" y="5.715" size="1.016" layer="21" rot="R180">-+5V</text>
 <text x="82.2325" y="6.985" size="1.016" layer="105">-GND</text>
-<text x="81.915" y="9.8425" size="1.016" layer="105">-Sig</text>
-<text x="76.2" y="55.245" size="1.016" layer="105">-Sig</text>
-<text x="76.2" y="58.1025" size="1.016" layer="105">-GND</text>
-<text x="80.3275" y="61.595" size="1.016" layer="105" rot="R180">-+3.3V</text>
+<text x="82.55" y="9.8425" size="1.016" layer="21">-Sig</text>
+<text x="79.0575" y="56.1975" size="1.016" layer="21" rot="R180">-Sig</text>
+<text x="80.01" y="58.7375" size="1.016" layer="21" rot="R180">-GND</text>
+<text x="76.5175" y="60.325" size="1.016" layer="21">-+3.3V</text>
 <text x="68.58" y="31.4325" size="1.016" layer="105">-GND</text>
-<text x="71.4375" y="40.005" size="1.016" layer="105" rot="R180">-+5V</text>
-<text x="68.58" y="36.5125" size="1.016" layer="105">-A</text>
+<text x="71.4375" y="40.005" size="1.016" layer="21" rot="R180">-+5V</text>
+<text x="68.58" y="36.5125" size="1.016" layer="21">-A</text>
 <text x="68.58" y="33.9725" size="1.016" layer="105">-B</text>
-<text x="80.645" y="41.5925" size="1.016" layer="105" rot="R90">Reset-</text>
-<text x="80.645" y="50.165" size="1.016" layer="105" rot="R90">-GND</text>
-<text x="75.2475" y="22.225" size="1.4224" layer="105" rot="R90">V+</text>
-<text x="75.2475" y="30.48" size="1.4224" layer="105" rot="R90">V-</text>
+<text x="80.645" y="41.5925" size="1.016" layer="22" rot="R90">Reset-</text>
+<text x="80.645" y="50.165" size="1.016" layer="21" rot="R90">-GND</text>
+<text x="75.2475" y="22.225" size="1.4224" layer="21" rot="R90">V+</text>
+<text x="75.2475" y="30.48" size="1.4224" layer="21" rot="R90">V-</text>
 </plain>
 <libraries>
 <library name="StellarisLaunchPad_Fred">
@@ -2152,43 +2152,43 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="33.48" y="58.245" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="PF2" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="80.645" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.645" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="80.9625" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PC4" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="78.105" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.105" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="78.74" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PF0" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="75.565" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="75.565" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="76.2" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PC5" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="73.025" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.025" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="73.66" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PB7" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="70.485" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.485" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="71.12" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PB6" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="67.945" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.945" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="68.2625" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PB5" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="65.405" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="65.405" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="65.7225" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PB4" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="62.865" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.865" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="63.1825" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PA7" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="60.325" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.325" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="60.6425" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PA6" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="57.785" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="57.785" y="11.7475" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="58.1025" y="0.635" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="PF1" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="55.245" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.245" y="11.7475" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="ADC0" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="74.93" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.93" y="50.165" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.93" y="50.165" size="1.016" layer="21" rot="R90"/>
 </element>
 <element name="ADC1" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="72.39" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="72.39" y="50.165" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="72.39" y="50.165" size="1.016" layer="21" rot="R90"/>
 </element>
 <element name="ADC2" library="RASEagleLib" package="3PINHEADER" value="3PINHEADER" x="69.85" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.85" y="50.165" size="1.016" layer="25" rot="R90"/>
@@ -2279,7 +2279,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="23.4315" y="36.068" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="J3" library="RASEagleLib" package="POWERPOLE_DOUBLE" value="POWERPOLE_DOUBLE" x="80.01" y="23.495" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.54" y="24.285" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="85.54" y="20.475" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="L1" library="RASEagleLib" package="SH50-C2" value="SH50C-3.0-47" x="63.5" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="19.05" size="1.27" layer="25" rot="R90"/>
@@ -2649,12 +2649,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="0.9525" y1="3.175" x2="-0.3175" y2="4.445" width="0.6096" layer="16"/>
 <wire x1="-0.3175" y1="4.445" x2="-0.635" y2="4.445" width="0.6096" layer="16"/>
 <wire x1="-0.635" y1="4.445" x2="-0.9525" y2="4.7625" width="0.6096" layer="16"/>
-</signal>
-<signal name="+5V">
-<contactref element="ENC1" pad="4"/>
-<contactref element="ENC0" pad="4"/>
-<contactref element="ENC2" pad="4"/>
-<contactref element="ENC3" pad="4"/>
 <contactref element="PF2" pad="2"/>
 <contactref element="PC4" pad="2"/>
 <contactref element="PF0" pad="2"/>
@@ -2665,11 +2659,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="PA7" pad="2"/>
 <contactref element="PA6" pad="2"/>
 <contactref element="PF1" pad="2"/>
+<contactref element="PC5" pad="2"/>
 <wire x1="78.105" y1="7.62" x2="80.645" y2="7.62" width="0.6096" layer="1"/>
 <wire x1="75.565" y1="7.62" x2="78.105" y2="7.62" width="0.6096" layer="1"/>
-<contactref element="PC5" pad="2"/>
-<wire x1="75.565" y1="7.62" x2="74.295" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="74.295" y1="7.62" x2="73.025" y2="7.62" width="0.6096" layer="1"/>
 <wire x1="73.025" y1="7.62" x2="70.485" y2="7.62" width="0.6096" layer="1"/>
 <wire x1="70.485" y1="7.62" x2="67.945" y2="7.62" width="0.6096" layer="1"/>
 <wire x1="67.945" y1="7.62" x2="65.405" y2="7.62" width="0.6096" layer="1"/>
@@ -2678,14 +2670,22 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="57.785" y1="7.62" x2="55.245" y2="7.62" width="0.4064" layer="1"/>
 <wire x1="57.785" y1="7.62" x2="60.325" y2="7.62" width="0.4064" layer="1"/>
 <wire x1="62.865" y1="7.62" x2="55.245" y2="7.62" width="0.6096" layer="1"/>
+<wire x1="75.565" y1="7.62" x2="74.295" y2="7.62" width="0.6096" layer="1"/>
+<wire x1="74.295" y1="7.62" x2="73.025" y2="7.62" width="0.6096" layer="1"/>
+<wire x1="63.5" y1="17.79" x2="73.3325" y2="17.79" width="0.6096" layer="16"/>
+<wire x1="73.3325" y1="17.79" x2="74.295" y2="17.78" width="0.6096" layer="16"/>
+<via x="74.295" y="17.78" extent="1-16" drill="0.6"/>
+<wire x1="74.295" y1="17.78" x2="74.295" y2="7.62" width="0.6096" layer="1"/>
+<contactref element="ENC1" pad="4"/>
+<contactref element="ENC0" pad="4"/>
+<contactref element="ENC2" pad="4"/>
+<contactref element="ENC3" pad="4"/>
 <wire x1="67.31" y1="39.37" x2="64.77" y2="39.37" width="0.4064" layer="16"/>
 <wire x1="64.77" y1="39.37" x2="62.23" y2="39.37" width="0.4064" layer="16"/>
 <wire x1="62.23" y1="39.37" x2="59.69" y2="39.37" width="0.6096" layer="16"/>
-<wire x1="62.23" y1="39.37" x2="73.9775" y2="39.37" width="0.6096" layer="16"/>
-<via x="73.9775" y="39.37" extent="1-16" drill="0.6" shape="octagon"/>
-<wire x1="74.295" y1="11.43" x2="74.295" y2="7.62" width="0.4064" layer="1"/>
-<wire x1="74.295" y1="11.43" x2="74.295" y2="39.0525" width="0.8128" layer="1"/>
-<wire x1="74.295" y1="39.0525" x2="73.9775" y2="39.37" width="0.8128" layer="1"/>
+<wire x1="74.295" y1="17.78" x2="74.295" y2="38.4175" width="0.6096" layer="1"/>
+<wire x1="74.295" y1="38.4175" x2="73.3425" y2="39.37" width="0.6096" layer="1"/>
+<wire x1="73.3425" y1="39.37" x2="64.77" y2="39.37" width="0.6096" layer="1"/>
 </signal>
 <signal name="PA2">
 <contactref element="U$1" pad="PA2"/>
